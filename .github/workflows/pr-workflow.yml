@@ -1,4 +1,4 @@
-name: CI
+name: CI - PR Validation
 
 on:
   pull_request:
@@ -25,4 +25,4 @@ jobs:
       - name: Run Python Script
         run: |
           echo hello_world.py
-          python hello_world.py
+          python3 hello_world.py
